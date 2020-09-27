@@ -1,0 +1,57 @@
+h1,p {
+    text-align: center;
+}
+.logout{
+padding-left: 650px;
+}
+h1,
+        form,
+        table {
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        img {
+            display: block;
+            padding: 3px;
+            border: 1px solid #aaa;
+            box-shadow: 0 0 8px #ccc;
+        }
+
+        span {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        span::after {
+            content: " ]";
+        }
+
+        span::before {
+            content: "[ ";
+        }
+
+        .error {
+            color: #990000;
+        }
+        .right{
+            width: 400px;
+        }
+        .left {
+            width: 200px;
+        }
